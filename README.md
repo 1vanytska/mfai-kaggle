@@ -4,6 +4,13 @@ This project explores the application of machine learning concepts to mental hea
 
 ---
 
+# Useful Links
+## [PM Tool](https://github.com/1vanytska/mfai-kaggle/issues)
+## [File Storage](https://drive.google.com/drive/folders/1P6gKHTLOxxjnGIclBhXBG1tJppyYzlhc?usp=drive_link)
+## [Kaggle](https://www.kaggle.com/competitions/playground-series-s4e11/overview)
+
+---
+
 ## Getting Started
 
 ### 1. Understanding the Task
