@@ -99,8 +99,12 @@ Dropped irrelevant or redundant columns:
   - Maximum iterations (`max_iter`): [100, 200, 300, 500]
 - Evaluated feature importance using logistic regression coefficients.
 
-#### 4.3 Model Evaluation
+#### 4.3 Neural Network
+- A neural network model was also trained using the same preprocessed data. The architecture consisted of an input layer matching the number of features, one hidden layer with 64 neurons, and an output layer for binary classification.
+- The network was trained with a learning rate of 0.01, 2501 iterations, and L2 regularization with λ=0.001.
+- The neural network achieved an accuracy of 91.87% on the validation dataset, and 91.78% on the Kaggle test submission.
 
+#### 4.4 Model Evaluation
 - Calculated accuracy for both training and validation datasets to assess model performance.
 - Printed feature importance to understand key predictors.
 
@@ -145,6 +149,7 @@ Dropped irrelevant or redundant columns:
 
 - **Random Forest Accuracy:** Achieved `~0.92` on validation data.
 - **Logistic Regression Accuracy:** Similar performance with feature importance analysis for interpretability.
+- **Neural Network Accuracy:** Achieved 91.87% on validation data and 91.78% on Kaggle test data, demonstrating strong performance on unseen data with a slight drop in accuracy after submission.
 
 ---
 
